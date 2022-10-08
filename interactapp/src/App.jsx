@@ -9,11 +9,11 @@ import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 import AboutUs from './views/AboutUs';
 import Home from './views/Home'
-
+import background from "./homeImages/background1.jpg"
 const App = () => {
   return (<>
     <Navbar/>
-    <div className='container'>
+    <div className='alt-container'>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/blog' element={<Blog/>} />

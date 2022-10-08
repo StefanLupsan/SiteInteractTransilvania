@@ -7,8 +7,7 @@ const Blog = () => {
   return (
     <div>
       <BlogHeader/>
-        
-        <Blogs blogs={blogList}/>
+      <Blogs blogs={blogList}/>
 
     </div>
 

@@ -1,15 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Button } from '@mui/material'
+import './style.css'
 
 const HomeAboutCard = () => {
     return (
-        <Link to="/about-us">
-            <div>
-                {/* Background img missing; */}
-                <h1>Ce este interact?</h1>
-
-            </div>
-        </Link>
+        <div className='homeaboutclass'>
+            <Link to="/about-us">
+                <Button variant="contained" className='whoarewebutton'>Cine suntem?</Button>
+            </Link>
+        </div>
     )
 }
 

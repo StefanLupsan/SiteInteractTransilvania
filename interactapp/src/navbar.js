@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom"
+import logo from "./homeImages/interactlogo.png";
 
 export default function Navbar() {
     return <nav className = "nav">
-        <Link to="/" className="site-title">Interact Transilvania</Link>
+        <Link to="/" className="site-title"><img src={logo} width="235" height="50" alt="Interact Logo"></img></Link>
         <ul>
             <li>
                 <Link to="/blog">Blog</Link>

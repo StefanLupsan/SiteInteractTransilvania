@@ -1,3 +1,17 @@
-div {
-
+.homeprojectclass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ourprojectsbutton {
+    background-color: white;
+    border-radius: 16px;
+    border: none;
+    color: #0050A2;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Dosis', sans-serif;
 }

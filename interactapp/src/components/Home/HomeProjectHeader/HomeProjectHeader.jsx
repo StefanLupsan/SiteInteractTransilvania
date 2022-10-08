@@ -5,13 +5,10 @@ import { Button } from '@mui/material'
 
 const HomeProjectHeader = () => {
     return (
-        <div>
+        <div className='homeprojectclass'>
                 {/* aici vine imagine si logo */}
                 <Link to="/projects">
-                    <Button variant="contained">Vezi proiectele noastre</Button>
-                </Link>
-                <Link to="/blog">
-                    <Button variant="contained">Vezi blogul nostru</Button>
+                    <Button variant="contained" class="ourprojectsbutton">Vezi proiectele noastre</Button>
                 </Link>
         </div>
     )
